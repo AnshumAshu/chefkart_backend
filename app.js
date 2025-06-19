@@ -36,7 +36,6 @@ app.use(cors({
   credentials: true
 }));
 
-
 app.get('/', async (req, res, next) => {
   res.send({ message: 'Awesome it works 🐻' });
 });
