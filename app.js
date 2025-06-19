@@ -29,6 +29,14 @@ app.use(express.urlencoded({ extended: false }));
 app.use(morgan('dev'));
 connectDB()
 
+app.use(cors({
+  origin: [
+    'http://localhost:3000', // for local testing
+    'https://chefkart-frontend.vercel.app' // for deployed frontend
+  ],
+  credentials: true
+}));
+
 
 app.get('/', async (req, res, next) => {
   res.send({ message: 'Awesome it works 🐻' });
