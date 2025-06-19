@@ -1,4 +1,4 @@
-const { cloudinary } = require("../config/cloudinary");
+const { cloudinary } = require("../config/Cloudinary");
 const Testimonial = require("../model/Testimonial.Model");
 
 /// create a testimonial

@@ -1,4 +1,4 @@
-const { cloudinary } = require("../config/cloudinary");
+const { cloudinary } = require("../config/Cloudinary");
 const Home = require("../model/HomeImage.Model");
 
 // Create a new home entry

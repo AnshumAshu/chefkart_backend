@@ -1,4 +1,4 @@
-const { cloudinary } = require("../config/cloudinary");
+const { cloudinary } = require("../config/Cloudinary");
 const Food= require("../model/FoodGallery.Model");
 
 //create a new food post with the provided data

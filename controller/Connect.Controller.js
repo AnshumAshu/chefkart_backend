@@ -1,4 +1,4 @@
-const { cloudinary } = require("../config/cloudinary");
+const { cloudinary } = require("../config/Cloudinary");
 const Connect = require("../model/Connect.Model");
 
 //create a new blog post with the provided data

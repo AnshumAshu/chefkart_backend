@@ -1,4 +1,4 @@
-const { cloudinary } = require("../config/cloudinary");
+const { cloudinary } = require("../config/Cloudinary");
 const Gallery = require("../model/Gallery.Model");
 
 const createGallery = async (req, res) => {

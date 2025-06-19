@@ -1,4 +1,4 @@
-const { cloudinary } = require("../config/cloudinary");
+const { cloudinary } = require("../config/Cloudinary");
 const Join = require("../model/Join.Model");
 
 //create a new join post with the provided data

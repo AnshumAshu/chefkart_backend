@@ -1,4 +1,4 @@
-const {cloudinary } = require("../config/cloudinary");
+const {cloudinary } = require("../config/Cloudinary");
 const Crousel=require('../model/Crousel.Model');
 const {mongoose}=require('mongoose');
 

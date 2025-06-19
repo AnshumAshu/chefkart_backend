@@ -1,4 +1,4 @@
-const { cloudinary } = require("../config/cloudinary");
+const { cloudinary } = require("../config/Cloudinary");
 const FoodGaller= require("../model/FoodGall.Model");
 
 //create a new blog post with the provided data
