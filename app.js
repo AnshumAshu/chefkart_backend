@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const createError = require('http-errors');
+const paymentRoutes = require('./routes/Payment.routes');
 const UserRoutes=require('./routes/User.routes');
 const BlogRoutes=require('./routes/Blog.routes')
 const TestimonialRoutes=require('./routes/Testimonial.routes');
@@ -39,7 +40,7 @@ app.use(cors({
 app.get('/', async (req, res, next) => {
   res.send({ message: 'Awesome it works 🐻' });
 });
- 
+app.use('/order', paymentRoutes);
 app.use('/auth', UserRoutes);
 app.use('/blog',  BlogRoutes)
 app.use('/testimonial', TestimonialRoutes );
